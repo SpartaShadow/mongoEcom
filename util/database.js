@@ -7,7 +7,7 @@ let db;
 const mongoConnect = async (cb) => {
   try {
     const client = await mongoClient.connect(
-      "mongodb+srv://ayanaliansari99:<password>@test.ucvf6tv.mongodb.net/?retryWrites=true&w=majority"
+      "mongodb+srv://ayanaliansari99:aaadktda@cluster0.mzdxczh.mongodb.net/?retryWrites=true&w=majority"
     );
     console.log("CONNECTED");
     db = client.db();
